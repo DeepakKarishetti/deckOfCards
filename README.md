@@ -63,7 +63,7 @@
 ## How to build and run:
 ```
 	$ git clone https://github.com/DeepakKarishetti/deckOfCards.git
-	$ cd build
+	$ cd deckOfCards/build/
 	$ cmake ../ 
 	$ make && ./bin/cards
 	
