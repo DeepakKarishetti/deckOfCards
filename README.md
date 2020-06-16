@@ -7,12 +7,11 @@
 
     .
 		 ├── build                   # Compiled files 
-		 ├── src            		 # Source files
-		 ├── test           		 # Automated tests
+		 ├── src            	     # Source files
+		 ├── test           	     # Automated tests
 		 ├── CMakeLists.txt          # High-level CMake file for the entire project
 		 ├── LICENSE                 
-		 ├── README.md          	 
-		 └── LICENSE 		     	 
+		 ├── README.md          	  		     	 
 		 ├── .gitignore
     
 
@@ -51,7 +50,7 @@
  		$ sudo make
 		$ sudo cp *.a /usr/lib
  	```
-```
+
 
 ## Source files description:
 ```
@@ -67,9 +66,12 @@
 	$ cd build
 	$ cmake ../ 
 	$ make && ./bin/cards
+	
 	- Give in an input value to the prompt on the terminal
 
+
 	$ ./bin/<unit-test-exe> // for unit test results for corresponding member functions
+	
 	- Ex: ./bin/test_getCurCardNum
 ```
 
